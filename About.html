@@ -12,6 +12,39 @@
         <link rel="stylesheet" href="About.css" />
     </head>
     <body>
+        <div class="pull-right toggle-right-sidebar">
+            <span class="fa title-open-right-sidebar tooltipstered fa-angle-double-right"></span>
+        </div>
+
+        <div id="right-sidebar" class="right-sidebar-notifcations nav-collapse">
+            <div class="bs-example bs-example-tabs right-sidebar-tab-notification" data-example-id="togglable-tabs">    
+                <div id="w3lDemoBar" class="w3l-demo-bar">
+                    <div class="demo-btns">
+                        <a href="https://w3layouts.com/?p=4763800000016615">
+                            <span class="w3l-icon -back">
+                                <span class="fa fa-arrow-left"></span>
+                            </span>
+                            <span class="w3l-text">Back</span>
+                        </a>
+                        <a href="https://w3layouts.com/?p=4763800000016615">
+                            <span class="w3l-icon -download">
+                                <span class="fa fa-download"></span>
+                            </span>
+                            <span class="w3l-text">Download</span>
+                        </a>
+                        <a href="https://w3layouts.com/checkout/?add-to-cart=4763800000016615" class="no-margin-bottom-mobile">
+                            <span class="w3l-icon -buy">
+                                <span class="fa fa-shopping-cart"></span>
+                            </span>
+                            <span class="w3l-text">Buy</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="right-sidebar-panel-content animated fadeInRight" tabindex="5003" style="overflow: hidden; outline: none;">
+                </div>
+            </div>
+        </div>
+
         <header class="fixed-top" id="header">
             <div class="container">
                 <div class="row">
@@ -302,7 +335,7 @@
             <div class="container py-lg-3">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="owl-three owl-carousel owl-theme text-center">
+                        <div class="owl-carousel owl-theme text-center">
                             <div class="item">
                                 <img src="./images/logo1.jpg" alt="company-logo" class="img-fluid" />
                             </div>
@@ -603,16 +636,19 @@
                 </div>
             </div>
         </div>
+        <!-- end w3l-footer -->
 
 
-
-
+        <div id="sroll-up" class="scroll1">
+            <a href="#" class="fa-solid fa-angle-up"></a>
+        </div>
+        <!-- end sroll-up -->
 
 
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <script src="./js/owl.carousel.min.js"></script>
-        <script src="./index-home-about.js"></script>
+        <script src="./About.js"></script>
     </body>
 </html>
