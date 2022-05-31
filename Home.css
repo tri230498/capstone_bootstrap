@@ -1027,6 +1027,16 @@ a:hover{
         display: block;
     }
 }
+@media screen and (max-width: 1199px) {
+    .scroll1{
+        display: none;
+    }
+}
+@media screen and (min-width: 375px) {
+    .scroll2{
+        display: block;
+    }
+}
 
 
 
@@ -1148,18 +1158,24 @@ a:hover{
 @media screen and (max-width: 800px) {
   .header-section h3 {
     font-size: 40px;
-    line-height: 50px; }
+    line-height: 50px; 
+    }
   .header-section h2 {
     font-size: 40px;
-    line-height: 50px; } }
+    line-height: 50px; 
+    } 
+}
 
 @media screen and (max-width: 667px) {
   .header-section h3 {
     font-size: 32px;
-    line-height: 42px; }
+    line-height: 42px; 
+    }
   .header-section h2 {
     font-size: 36px;
-    line-height: 42px; } }
+    line-height: 42px; 
+    } 
+}
 
 
 

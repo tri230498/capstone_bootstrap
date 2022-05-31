@@ -942,6 +942,16 @@ a:hover{
         display: block;
     }
 }
+@media screen and (max-width: 1199px) {
+    .scroll1{
+        display: none;
+    }
+}
+@media screen and (min-width: 375px) {
+    .scroll2{
+        display: block;
+    }
+}
 
 
 
